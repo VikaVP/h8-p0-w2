@@ -1,0 +1,81 @@
+1. Newton Second Law
+
+    Algoritma:
+    1. Tentukan massa benda sebuah mobil dalam satuan kg.
+    2. Tentukan percepatan benda dalam m/s2.
+    3. Hitung resultan gaya = massa x percepatan benda.
+    4. print resultan gaya.
+
+    Pseudocode:
+    Set massa with value 600
+    Set percepatan with value 2
+    Set gaya
+    Calculate massa times percepatan, store into gaya
+    print gaya.
+
+
+2. Tahun Kabisat
+
+
+    Algoritma:
+    1. Tentukan tahun yang akan dicek tahun kabisat atau bukan.
+    2. Hitung sebagai tahun kabisat jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400.
+    3. Jika tahun Kabisat 
+    4. print tahun kabisat
+    5. Jika perhitungan tidak sesuai
+    6. print bukan tahun kabisat
+
+
+    Pseudocode:
+    Set year with any value
+    Set lapyear
+    Calculate year mod 4 is 0 && year mod 100 is 0 && year mod 400 is 0, store into lapyear
+    if lapyear then
+        print "Tahun Kabisat"
+    else
+        print "Bukan Tahun Kabisat"
+    endif
+
+
+3. Laundry Day
+
+    Algoritma:
+    1. Tentukan jumlah pakaian yang akan dicuci.
+	2. Masukkan satu per satu pakaian sampai seluruh pakaian masuk ke mesin cuci.
+	3. Nyalakan mesin cuci. 
+
+    Pseudocode:
+    Set pakaian = 1
+    For pakaian To 20 Do
+	    If pakaian == 20 Then
+		    print Nyalakan mesin cuci
+		    Increment counter
+	    Endif
+    Endfor
+
+
+4. Periksa Kuku
+
+    Algoritma:
+	1. Tentukan jumlah murid  yang nanti akan diperiksa.
+	2. Jika diantara murid ada yang kuku panjang, maka guru akan memberikan hukuman.
+	3. Jika murid kukunya tidak panjang, maka akan guru akan memberikan pujian
+    
+    Pseudocode:
+    Set murid with value 1
+    Store 'kuku' with value ('pendek' || 'panjang')
+    While murid To 40 Do
+        Read kuku
+        If kuku === pendek Then
+            print guru memuji murid
+        Else kuku === panjang Then
+            print guru menghukum murid
+            
+        Endif
+        Increment counter
+    Endwhile
+
+
+
+
+
