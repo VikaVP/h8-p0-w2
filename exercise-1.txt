@@ -46,12 +46,12 @@
 
     Pseudocode:
     Set pakaian = 1
-    For pakaian To 20 Do
+    While pakaian To 20 Do
 	    If pakaian == 20 Then
 		    print Nyalakan mesin cuci
 		    Increment counter
 	    Endif
-    Endfor
+    Endwhile
 
 
 4. Periksa Kuku
@@ -63,7 +63,7 @@
     
     Pseudocode:
     Set murid with value 1
-    Store 'kuku' with value ('pendek' || 'panjang')
+    Set 'kuku' with value ('pendek' || 'panjang')
     While murid To 40 Do
         Read kuku
         If kuku === pendek Then
